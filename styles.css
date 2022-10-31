@@ -9,7 +9,7 @@ body {
     padding: 0px 140px;
 }
 
-.container.one {
+.container.one, .container.footer{
     background-color: #1F2937;
 }
 
@@ -176,4 +176,15 @@ body {
 
 .fourth-p.two {
     font-size: 20px;
+}
+
+.container.footer {
+    align-items: center;
+    justify-content: center;
+    padding: 20px 140px;
+}
+
+.footer-paragraph {
+    color: #F9FAF8;
+    font-size: 19px;
 }
