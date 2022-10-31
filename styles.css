@@ -67,7 +67,7 @@ body {
     justify-content: center;
 }
 
-.get-info-button {
+.button {
     border-radius: 8px;
     background-color: #3882F6;
     font-size: 17px;
@@ -130,4 +130,50 @@ body {
     width: 707px;
     font-size: 25px;
     text-align: right;
+}
+
+.container.four {
+    align-items: center;
+    padding: 140px 100px;
+}
+
+.fourth-subcontainer {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.fourth-sub-left {
+    padding: 30px;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth-sub-right {
+    padding: 30px;
+    flex: auto;
+}
+
+.button.sign-up {
+    border: 1px solid white;
+    color: white;
+    padding: 9px;
+    text-decoration: none;
+}
+
+.fourth-p {
+    color: white;
+    margin: 0px;
+}
+
+.fourth-p.one {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.fourth-p.two {
+    font-size: 20px;
 }
