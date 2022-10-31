@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
 
 .container {
@@ -88,6 +89,7 @@ body {
 }
 
 .second-subcontainer {
+    gap: 86px;
     display: flex;
     justify-content: center;
 }
