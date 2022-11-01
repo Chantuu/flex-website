@@ -34,10 +34,13 @@ body {
     flex-shrink: 0;
     display: flex;
     gap: 40px;
-    color: #E5E7EB;
     font-size: 24px;
     list-style: none;
+}
+
+.header-anchor {
     text-decoration: none;
+    color: #E5E7EB;
 }
 
 .first-subcontainer {

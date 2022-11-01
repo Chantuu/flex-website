@@ -1,9 +1,16 @@
 body {
     margin: 0px;
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    height: 100%;
 }
 
 .container {
+    flex: auto;
     display: flex;
     flex-direction: column;
     min-width: 890px;
@@ -38,4 +45,49 @@ body {
     font-size: 24px;
     list-style: none;
     text-decoration: none;
+}
+
+.header-anchor {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.container.two {
+    padding: 100px 140px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-subcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    border-radius: 10px;
+}
+
+.info-subcontainer-p.one {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.info-subcontainer-p.two {
+    width: 802px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.container.footer {
+    align-items: center;
+    justify-content: center;
+    padding: 20px 140px;
+}
+
+.footer-paragraph {
+    color: #F9FAF8;
+    font-size: 19px;
 }
