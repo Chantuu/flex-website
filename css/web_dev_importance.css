@@ -52,6 +52,7 @@ html, body {
 }
 
 .container.two {
+    padding: 100px 140px;
     flex-grow: 1;
     justify-content: center;
     align-items: center;
