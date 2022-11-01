@@ -10,7 +10,6 @@ html, body {
 }
 
 .container {
-    flex: auto;
     display: flex;
     flex-direction: column;
     min-width: 890px;
