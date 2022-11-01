@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-width: 890px;
+    padding: 0px 140px;
+}
+
+.container.one, .container.footer{
+    background-color: #1F2937;
+}
+
+.header, .subcontainer {
+    gap: 70px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    flex-shrink: 0;
+    font-size: 36px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    flex-shrink: 0;
+    display: flex;
+    gap: 40px;
+    color: #E5E7EB;
+    font-size: 24px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-anchor {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.container.two {
+    flex-grow: 1;
+}
+
+.container.footer {
+    align-items: center;
+    justify-content: center;
+    padding: 20px 140px;
+}
+
+.footer-paragraph {
+    color: #F9FAF8;
+    font-size: 19px;
+}
