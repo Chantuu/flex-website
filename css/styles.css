@@ -24,10 +24,11 @@ body {
     align-items: center;
 }
 
-.header-logo {
+.header-logo .logo_anchor{
     flex-shrink: 0;
     font-size: 36px;
     color: #F9FAF8;
+    text-decoration: none;
 }
 
 .header-links {
